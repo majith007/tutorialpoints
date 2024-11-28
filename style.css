@@ -1,0 +1,1111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+
+}
+
+.topnev {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: rgb(5, 131, 5);
+}
+
+.topnev .left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.topnev .left p:hover {
+    text-decoration: underline;
+
+}
+
+.topnev .right {
+    gap: 15px;
+    color: white;
+}
+
+.mid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.mid .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mid .logo {
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+    /* padding-top:10px; */
+}
+
+.logo p {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.logo span {
+    color: rgb(5, 131, 5);
+    font-size: 30px;
+    padding-top: -30px;
+
+}
+
+/* MIDNAV */
+.mid .right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.mid .right button {
+    padding: 10px 20px;
+    border: 2px solid rgb(5, 131, 5);
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(5, 131, 5);
+}
+
+.mid .right button:hover {
+    background-color: transparent;
+    color: rgb(5, 131, 5);
+}
+
+.mid .logo p {
+    display: flex;
+    /* flex-direction: ; */
+}
+
+/* BOTTOM nav */
+.bottomnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomnav p {
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    background-color: #003C72;
+    color: white;
+    text-align: center;
+}
+
+.bottomnav p:hover {
+    background-color: rgb(5, 131, 5);
+}
+
+/* second card */
+.card {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/navy-blue-blue-dark-geometry-business-technology-powerpoint-background_b684dc1eba__960_540.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.card .left {
+    position: relative;
+    top: 50%;
+    padding-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.card .left span {
+    color: rgb(5, 131, 5);
+}
+
+.card .left p {
+    font-weight: 800;
+}
+
+.card .right img {
+    position: relative;
+    height: 500px;
+    padding-right: 20px;
+}
+
+.card .left input {
+    width: 75%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+/* third card */
+
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.name .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+
+.name .left p {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.name .left p span {
+    color: rgb(5, 131, 5);
+}
+
+.name .right button {
+    color: white;
+    background-color: rgb(5, 131, 5);
+    padding: 15px 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0;
+}
+
+.name .right button:nth-child(2),
+.name .right button:nth-child(3) {
+    color: white;
+    background-color: #000;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0;
+}
+
+.name .right button:hover {
+    background-color: white;
+    border: 1px solid rgb(5, 131, 5);
+    color: rgb(5, 131, 5);
+}
+
+.name .right button:nth-child(2):hover,
+.name .right button:nth-child(3):hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.fcard1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 30px 40px;
+    border-radius: 40px;
+    height: 300px;
+    background-color: #003D72;
+}
+
+.fcard1 .card1 {
+
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #CFE9D0;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card1:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+
+}
+
+.fcard1 .card2 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #789AC2;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card2:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.fcard1 .card3 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #FFFAD8;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card3:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.fcard1 .card4 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #B3E5F6;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card4:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.fcard1 .card5 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #789AC2;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card5:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.fcard1 .card6 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #E2B6FD;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card6:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.fcard1 .card7 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #9C9EE6;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card7:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.fcard1 .card8 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    width: 250px;
+    background-color: #FFFFFF;
+    /* border: 2px solid rgb(190, 20, 20); */
+}
+
+.fcard1 .card8:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+/* fifth card */
+.info {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+.info .left p {
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.info .left span {
+    color: rgb(5, 131, 5);
+}
+
+/* sixth crad */
+.acard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+}
+
+.acard .left {
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) -10px 15px, rgba(0, 0, 0, 0.1) -10px 20px, rgb(0, 0, 0) -10px 10px;
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    flex-wrap: wrap;
+}
+
+.acard .left h6 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.acard .left span {
+    color: rgb(5, 131, 5);
+}
+
+.acard .left1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.acard .left1 .acard1 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #DFF3D0;
+}
+
+.acard .left1 .acard2 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #B3E5F6;
+}
+
+.acard .left1 .acard3 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #FFFAD8;
+}
+
+.acard .left1 .acard4 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #FFDAC3;
+}
+
+.acard .left1 .acard5 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C8EAD1;
+}
+
+.acard .left1 .acard6 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.acard .left1 .acard1:hover,
+.acard2:hover,
+.acard3:hover,
+.acard4:hover,
+.acard5:hover,
+.acard6:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+}
+
+.acard .left1 .acard6:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+.acard .right {
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) -10px 15px, rgba(0, 0, 0, 0.1) -10px 20px, rgb(0, 0, 0) -10px 10px;
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    flex-wrap: wrap;
+}
+
+.acard .right h6 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.acard .right span {
+    color: rgb(5, 131, 5);
+}
+
+.acard .right1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.acard .right1 .acard1 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #DFF3D0;
+}
+
+.acard .right1 .acard2 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #B3E5F6;
+}
+
+.acard .right1 .acard3 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #fffad8;
+}
+
+.acard .right1 .acard4 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #FFDAC3;
+}
+
+.acard .right1 .acard5 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C8EAD1;
+}
+
+.acard .right1 .acard6 {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.acard .right1 .acard1:hover,
+.acard2:hover,
+.acard3:hover,
+.acard4:hover,
+.acard5:hover,
+.acard6:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+}
+
+.acard .right1 .acard6:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+/* eight card */
+
+.mcard {
+    top: 20px;
+    width: 97%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) -10px 15px, rgba(0, 0, 0, 0.1) -10px 20px, rgb(0, 0, 0) -10px 10px;
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+.mcard .left {
+    display: flex;
+    width: 100%;
+}
+
+.mcard .left .left1 {
+    margin-top: 30px;
+    width: 1000px;
+}
+
+.mcard h6 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.mcard .left p {
+    font-weight: 500;
+}
+
+.mcard span {
+    color: rgb(5, 131, 5);
+}
+
+.mcard .left1 {
+    width: 100%;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mcard .left1 .acard1 {
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    background-color: #C5C5C5;
+}
+
+.mcard .left1 .acard2 {
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.mcard .left1 .acard3 {
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.mcard .left1 .acard4 {
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.mcard .left1 .acard5 {
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.mcard .left1 .acard6 {
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: start;
+    /* width: 250px; */
+    background-color: #C5C5C5;
+}
+
+.mcard .left1 .acard1:hover,
+.acard2:hover,
+.acard3:hover,
+.acard4:hover,
+.acard5:hover,
+.acard6:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+}
+
+.mcard .left1 .acard1:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+.mcard .left1 .acard2:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+.mcard .left1 .acard3:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+.mcard .left1 .acard4:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+.mcard .left1 .acard5:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+.mcard .left1 .acard6:hover {
+    background-color: #001A26;
+    color: white;
+}
+
+/* ninth card */
+.scard {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #001A26;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.scard .sleft {
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    top: 20p;
+}
+
+.scard .sright {
+    width: 50%;
+    margin-top: 1rem;
+    padding: 10px;
+    top: 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    gap: 20px;
+}
+
+.scard .sright h2 span {
+    color: rgb(5, 131, 5);
+}
+
+.scard .sright .sp2 {
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.scard .sright .sright1 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 2;
+    justify-content: space-between;
+}
+
+.sright1 .wd23 h3 {
+    width: 250px;
+    text-align: left;
+    /* margin: 10px 0px; */
+    border-radius: 15px;
+    /* background-color: #000; */
+    padding: 10px 15px;
+}
+
+.sright1 .agr1 {
+    border-radius: 20px;
+    background-color: #44CBF2;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sright1 .agr2 {
+    border-radius: 20px;
+    background-color: #79D34D;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sright1 .agr3 {
+    border-radius: 20px;
+    background-color: #FFE42D;
+    color: black;
+}
+
+.sright1 .agr4 {
+    border-radius: 20px;
+    background-color: #FF6300;
+    color: black;
+}
+
+.sright1 .agr1:hover,
+.agr2:hover,
+.agr3:hover,
+.agr4:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+}
+
+/* TENTH CARD */
+.dcard{
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.dcard h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.dcard p{
+    font-weight: 700;
+}
+.dcard h1 span{
+    color: rgb(5, 131, 5);
+}
+
+/* eleventh card */
+.wcard{
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+.wcard .left{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.wcard .left button{
+    padding: 10px 20px;
+    border: 2px solid rgb(5, 131, 5);
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(5, 131, 5);
+}
+.wcard .left button:hover{
+    background-color: transparent;
+    color: rgb(5, 131, 5);
+}
+.wcard .right{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+}
+
+.gcard{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(700px,700px));
+    gap: 30px;
+}
+
+/* twelve card */
+.lcard{
+    width: 100%;
+    margin-top: 600px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lcard .lcard1{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+}
+.lcard .lcard1 h1 span{
+    color:rgb(5, 131, 5)
+}
+.lcard .lcard2 button{
+    padding: 15px 20px;
+    border: 2px solid rgb(5, 131, 5);
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(5, 131, 5);
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 150px;
+}
+.lcard .lcard2 button:hover{
+    background-color: transparent;
+    color: rgb(5, 131, 5);
+}
+
+    /* thirteen card */
+.qcard{
+    position: relative;
+    height: 600px;
+    width: 100% ;
+    background-color:whitesmoke ;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(300px,300px));
+    gap: 20px;
+}
+.qcard1, .qcard2,.qcard3,.qcard4,.qcard5,.qcard6,.qcard7,.qcard8{
+    width: 100%;
+    background-color: #EEEEEE;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px ;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    height: 100%;
+    margin-top: 30px;
+}
+.qcard1 img{
+    width: 70%;
+}
+.qcard1:hover,.qcard2:hover,.qcard3:hover,.qcard4:hover,.qcard5:hover,.qcard6:hover,.qcard7:hover,.qcard8:hover{
+    border-color: rgb(5, 131, 5);
+}
+
+  /* fourteen card */
+.color{
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 80px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.color1{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    border-radius: 30px;
+
+
+}
+.color .cleft{
+    width: 60%;
+    background-color: #B3E5F6;
+    padding: 20px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.color .cright{
+    width: 40%;
+    background: no-repeat center url("https://www.tutorialspoint.com/static/images/home/annual-membership.jpg");
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.color .cleft p ,h3{
+    margin-top: 10px;
+}
+
+.color .cleft button{
+    padding: 10px 20px;
+    border: 2px solid #0099DB;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+    background-color: #0099DB;
+    margin-top: 40px;
+}
+.color .cleft button:hover{
+    background-color: transparent;
+    color: #0099DB ;
+}
+.color .cright{
+    padding: 5px 5px;
+}
+
+.color2{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    border-radius: 30px;
+}
+.color2 .cleft2{
+    width: 60%;
+    background-color:#FFDAC3 ;
+    padding: 20px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.color2 .cright2{
+    width: 40%;
+    background: no-repeat center url("https://www.tutorialspoint.com/static/images/home/traning-for-a-team.jpg");
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.color2 .cleft2 p ,h3{
+    margin-top: 10px;
+}
+.color2 .cleft2 button{
+    padding: 10px 20px;
+    border: 2px solid #FF6600;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+    background-color: #FF6600;
+    margin-top: 70px;
+}
+.color2 .cleft2 button:hover{
+    background-color: transparent;
+    color: #FF6600 ;
+}
+.color2 .cright2{
+    padding: 5px 5px;
+}
+
+/* fifteen crad  */
+.bcard{
+    width: 100%;
+    height: 100%;
+    background-color: #01141C;
+    color: white;
+}
+.bcard1 img{
+ padding-top: 100px;
+ padding-left: 20px;
+}
+.bcard1 .bcard1c{
+    display: flex;
+    float: right;
+    gap: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    color: yellow;
+}
+.bcard1 .bcard1c h3:nth-last-child(n):hover{
+    text-decoration: underline;
+}
+.bcard1 p{
+    width: 30%;
+    padding-left: 15px;
+    top: 30px;
+}
+.bcard2c{
+    padding-left: 30px;
+    line-height: 1.2;
+}
+.bcard2c .bcard2c1{
+    width: 50%;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bcard2c .bcard2c1 ul li:nth-last-child(n):hover{
+ color: rgb(5, 131, 5);
+}
+.bcard3{
+    width:100%;
+    https://icons.getbootstrap.com/icons/facebook/
+}
+.kcard{
+    width: 50%;
+    padding: 20px;
+    
+}
+.kcard1 i{
+    padding-left:20px ;
+    font-size: 30px;
+}
